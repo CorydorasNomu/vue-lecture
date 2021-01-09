@@ -1,0 +1,26 @@
+<div class="">
+  <b-container fluid>
+    <div class="col-6">
+      <b-form-group label="社員コード：">
+        <b-form-input id="user-code" v-model="userCode" trim size="sm">{{ userCode }}</b-form-input>
+      </b-form-group>
+    </div>
+    <div class="col-6">
+      <b-form-group label="社員氏名：">
+        <b-form-input id="user-name" v-model="userName" trim size="sm">{{ userName }}</b-form-input>
+      </b-form-group>
+    </div>
+    <div class="col-6">
+      <b-form-group label="上長メール：">
+        <b-form-input id="boss-mail" v-model="bossName" trim size="sm">{{ bossMail }}</b-form-input>
+      </b-form-group>
+    </div>
+    <div class="col-6">
+      <b-form-group label="上長氏名：">
+        <b-form-input id="boss-name" v-model="bossMail" trim size="sm">{{ bossName }}</b-form-input>
+      </b-form-group>
+    </div>
+  </b-container>
+
+  <h2>{{ prise }}</h2>
+</div>

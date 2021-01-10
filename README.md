@@ -1,4 +1,4 @@
-# nagano-prt
+# vue-lecture
 
 ## Project setup
 ```

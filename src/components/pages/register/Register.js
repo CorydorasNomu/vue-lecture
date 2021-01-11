@@ -3,13 +3,11 @@ export default {
 
   data() {
     return {
-      time: 0,
-      isWorkingTime: false,
-      isBreakeTime: false,
+      // TODO define variables binded with html
     }
   },
 
   mounted() {
-    // noop
+    // TODO prepare properties here
   }
 }

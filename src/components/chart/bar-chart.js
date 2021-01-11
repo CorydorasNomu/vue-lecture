@@ -4,11 +4,10 @@ export default {
   extends: Bar,
 
   props: [
-    'data', 'options'
+    // 'data', 'options'
   ],
 
   mounted() {
-    // render chart
-    this.renderChart(this.data, this.options)
+    // this.renderChart(this.data, this.options);
   }
 }

@@ -1,33 +1,19 @@
-import axios from 'axios';
+// import axios from 'axios';
 
 export default {
   name: 'Login',
 
   data () {
     return {
-      userCode: '',
-      userName: '',
-      bossMail: '',
-      bossName: '',
-      prise: 0, // test for hitting API
+      // TODO define variables binded with html
     }
   },
 
   methods: {
-    register: function () {
-      // TODO write actions here when register button has been hit
-      this.$router.push('/register');
-    },
-
-    moveToManage: function () {
-      this.$router.push('/manage');
-    }
+    // TODO define function here
   },
 
   mounted () {
-    // TODO hit API if you need several data before displaying screen
-    axios
-      .get('https://api.coindesk.com/v1/bpi/currentprice.json')
-      .then(response => (this.prise = response))
+    // TODO prepare properties here
   }
 }

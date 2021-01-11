@@ -2,26 +2,33 @@
   <div class="mb-5">
     <h1>在宅勤務 時間管理システム</h1>
   </div>
+  <div class="mb-5">
+    <b-button variant="outline-primary" @click="moveToManage">管理画面</b-button>
+  </div>
   <div class="row">
-    <div class="col-6">
-      <b-form-group label-for="user-code" label="社員コード：" class="text-left">
-        <b-form-input id="user-code" v-model="userCode" trim size="sm">{{ userCode }}</b-form-input>
-      </b-form-group>
-    </div>
-    <div class="col-6">
-      <b-form-group label-for="user-name" label="社員氏名：" class="text-left">
-        <b-form-input id="user-name" v-model="userName" trim size="sm">{{ userName }}</b-form-input>
-      </b-form-group>
-    </div>
-    <div class="col-6">
-      <b-form-group label-for="boss-mail" label="上長メール：" class="text-left">
-        <b-form-input id="boss-mail" v-model="bossName" trim size="sm">{{ bossMail }}</b-form-input>
-      </b-form-group>
-    </div>
-    <div class="col-6">
-      <b-form-group label-for="boss-name" label="上長氏名：" class="text-left">
-        <b-form-input id="boss-name" v-model="bossMail" trim size="sm">{{ bossName }}</b-form-input>
-      </b-form-group>
+    <div class="col-10 mx-auto">
+      <div class="row">
+        <div class="col-6">
+          <b-form-group label-for="user-code" label="社員コード：" class="text-left">
+            <b-form-input id="user-code" v-model="userCode" trim size="sm">{{ userCode }}</b-form-input>
+          </b-form-group>
+        </div>
+        <div class="col-6">
+          <b-form-group label-for="user-name" label="社員氏名：" class="text-left">
+            <b-form-input id="user-name" v-model="userName" trim size="sm">{{ userName }}</b-form-input>
+          </b-form-group>
+        </div>
+        <div class="col-6">
+          <b-form-group label-for="boss-mail" label="上長メール：" class="text-left">
+            <b-form-input id="boss-mail" v-model="bossName" trim size="sm">{{ bossMail }}</b-form-input>
+          </b-form-group>
+        </div>
+        <div class="col-6">
+          <b-form-group label-for="boss-name" label="上長氏名：" class="text-left">
+            <b-form-input id="boss-name" v-model="bossMail" trim size="sm">{{ bossName }}</b-form-input>
+          </b-form-group>
+        </div>
+      </div>
     </div>
     <!-- <h2>{{ prise }}</h2> -->
   </div>

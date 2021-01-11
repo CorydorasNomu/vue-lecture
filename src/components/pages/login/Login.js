@@ -17,6 +17,10 @@ export default {
     register: function () {
       // TODO write actions here when register button has been hit
       this.$router.push('/register');
+    },
+
+    moveToManage: function () {
+      this.$router.push('/manage');
     }
   },
 

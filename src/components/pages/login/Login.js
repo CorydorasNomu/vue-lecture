@@ -13,7 +13,15 @@ export default {
     }
   },
 
+  methods: {
+    register: function () {
+      // TODO write actions here when register button has been hit
+      this.$router.push('/register');
+    }
+  },
+
   mounted () {
+    // TODO hit API if you need several data before displaying screen
     axios
       .get('https://api.coindesk.com/v1/bpi/currentprice.json')
       .then(response => (this.prise = response))

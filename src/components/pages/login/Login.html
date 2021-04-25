@@ -1,6 +1,7 @@
 <div class="container-fluid">
-  <div>
-    <h1>在宅勤務 時間管理システム</h1>
-    <process-chart :chart-data="datacollection"></process-chart>
+  <div class="row">
+    <div class="col-11 text-center" style='max-width: 1000px; max-height: 600px;'>
+      <process-chart :chart-data="datacollection" :options="options"></process-chart>
+    </div>
   </div>
 </div>
